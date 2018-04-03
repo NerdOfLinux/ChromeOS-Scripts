@@ -24,6 +24,7 @@ echo -n "DNSDatabaseInfo current.cvd.clamav.net
 DatabaseMirror db.us.clamav.net
 DatabaseMirror database.clamav.net
 " > /usr/local/etc/freshclam.conf
+
 # Run freshclam
 echo "Updating virus DB..."
 freshclam -u chronos
