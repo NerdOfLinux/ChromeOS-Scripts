@@ -29,6 +29,8 @@ DatabaseMirror database.clamav.net
 echo "Updating virus DB..."
 freshclam -u chronos
 echo "Finishing configuration..."
+
+#Create Alias
 echo "alias freshclam='freshclam -u chronos'" >> ~/.bashrc
 alias freshclam='freshclam -u chronos'
 echo "Install complete!!"
